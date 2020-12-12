@@ -1,6 +1,8 @@
 import os
 
 class Config:
+
+    SECRET_KEY='eve'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
     SQLALCHEMY_TRACK_MODIFICATIONS=True
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:eveline3434@localhost/blogs'
@@ -37,3 +39,4 @@ class DevConfig(Config):
 config_options = {
 'development':DevConfig,
 'production':ProdConfig
+}
