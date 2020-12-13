@@ -1,17 +1,22 @@
-# News_Api
+# Personal
 ## Author
 [Philipa-Eviline](https://github.com/philipiaeveline/Personal-Blogs)
+
 # Description
-This is an application that will help people who want to get realtime news withouth having to watch TV for the news. The website will show news articles from several sources and news sources that a user can click to see morw news. The  application consumes news from the [News API](https://newsapi.org/)
+A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries. Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page. 
 ## Live Demo
 Click [Link]() to visit the site
+
 ## Screenshot
-<img src="app/static/images/Screenshot\) from\ 2020-11-29\ 15-48-04.png" width="800px" height="400px">
+<img src="">
+
 ## User Story
-1. A user would see various news sources on the homepage of the application.
-2. A user would also be able to select a news source and see all news articles from the selected news source in the application.
-3. A user will be able to see the image, description and the time a news article was created from the News-Articles tab.
-4. A click on an article and read the full article on the source website.
+Comment on the different blogs posted by other uses.
+See the blogs posted by other uses.
+Register to be allowed to log in to the application
+View blogs from the different categories.
+Submit a blog to a specific category of their choice.
+
 ## Development Installation
 To get the code..
 1. Cloning the repository:
@@ -25,7 +30,8 @@ To get the code..
   ```
 3. Exporting Configurations
   ```bash
-  export API_KEY='{Enter your News Api Key}'
+
+  export API_BASE_URL='http://quotes.stormconsultancy.co.uk/random.json'
   ```
 4. Running the application
   ```bash
@@ -36,10 +42,12 @@ To get the code..
   python3.7 manage.py test
   ```
 Open the application on your browser `127.0.0.1:5000`.
+
 ## Technology used
 * [Python3.7](https://www.python.org/)
 * [Flask](http://flask.pocoo.org/)
 * [Heroku](https://heroku.com)
+
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
 ## Contact Information 
