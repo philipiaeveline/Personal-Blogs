@@ -8,7 +8,7 @@ from flask_login import login_required,current_user
 from ..email import mail_message
 import secrets
 import os
-from PIL import Image
+from manage import app      
 
 @main.route('/')
 def index():
@@ -16,6 +16,7 @@ def index():
     page = request.args.get('page',1, type = int )
     blogs = Blog.query.order_by(Blog.posted.desc()).paginate(page = page, per_page = 3)
     return render_template('index.html', quote = quotes,blogs=blogs)
+    
 def save_picture(form_picture):
     random_hex = secrets.token_hex(8)
     _, f_ext = os.path.splitext(form_picture.filename)
@@ -120,7 +121,7 @@ def subscribe():
     email = request.form.get('subscriber')
     new_subscriber = Subscriber(email = email)
     new_subscriber.save_subscriber()
-    mail_message("Subscribed to D-Blog","email/welcome_subscriber",new_subscriber.email,new_subscriber=new_subscriber)
+    mail_message("Subscribed to personal-Blogs","email/welcome_subscriber",new_subscriber.email,new_subscriber=new_subscriber)
     flash('Sucessfuly subscribed')
     return redirect(url_for('main.index'))
 
