@@ -32,18 +32,18 @@
     border-radius: 5px;  
   }
   .navbarbg{
-      background-color:blanchedalmond;
+      background-color:black;
   }
   body{
-    color: white;
-    background-attachment: fixed;
+ 
+    background-attachment: fixed; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
-    font-family: 'Prompt', sans-serif;  
+  
   }
   .bg{
-      background-color: rgba(255, 255, 255, 0.924);
+      background-color:black;
       padding: 4px;
       color: cadetblue;
       border-radius: 6px;
@@ -57,7 +57,6 @@
 #modalComment{
     border-radius: 5px;
 }
-.singleblog{
-    background-color: rgba(255, 255, 255, 0.924);  
-    color:burlywood;
+.singleblog{ 
+color: black;
 }
