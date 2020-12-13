@@ -15,8 +15,8 @@ class Config:
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
-    MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
-    MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
+    MAIL_USERNAME ='philipiaeveline13@gmail.com'
+    MAIL_PASSWORD = 'eveline3434'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     SECRET_KEY = os.environ.get('SECRET_KEY')    
     SEND_EMAIL= 'philipiaeveline13@gmail.com'

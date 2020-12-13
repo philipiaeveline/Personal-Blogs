@@ -34,14 +34,7 @@
   .navbarbg{
       background-color:black;
   }
-  body{
  
-    background-attachment: fixed; 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; 
-  
-  }
   .bg{
       background-color:black;
       padding: 4px;
