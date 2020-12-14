@@ -7,9 +7,12 @@
                 <div class="col-md-3 "><a class="btn btn-sm btn-info " id="ref" href="{{url_for('main.new_blog')}}">Post</a></div>
                 {% endif %}
             
-            <div class="col-md-9 "><h1 >Welcome to Personal-Blogs</h1></div>
+            <div class="col-md-9 ">
+                <h1>
+                    <marquee style="color: chartreuse;" direction = "right">Welcome to Personal-Blogs</marquee>
+                </h1>
         </div>
-
+        
         <div class="row">
             <div class="col-md-8 ">
                 {% for blog in blogs.items %}
@@ -77,7 +80,7 @@
     </div>
     <style>
         .col-md-9{
-            color: chartreuse;
+            color:whitesmoke;
             text-align: center;
         }
     </style>
