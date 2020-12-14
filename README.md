@@ -5,10 +5,8 @@
 # Description
 A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries. Posts are typically displayed in reverse chronological order, so that the most recent post appears first, at the top of the web page. 
 ## Live Demo
-Click [Link]() to visit the site
+Click [Link](https://github.com/philipiaeveline/Personal-Blogs) to visit the site
 
-## Screenshot
-<img src="">
 
 ## User Story
 Comment on the different blogs posted by other uses.
